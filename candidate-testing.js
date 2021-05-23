@@ -37,7 +37,7 @@ function gradeQuiz(candidateAnswers) {
     grade = 0
   }
 
-  console.log(candidateName+' Your Grade is '+ grade*100 +'%');
+ return grade*100;
 }
 
 function runProgram() {
@@ -45,7 +45,7 @@ function runProgram() {
   // TODO 1.1c: Ask for candidate's name //
   askForName();
   askQuestion();
-  gradeQuiz(this.candidateAnswers);
+ console.log(gradeQuiz(this.candidateAnswers));
   
 }
 
