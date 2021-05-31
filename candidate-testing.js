@@ -24,7 +24,7 @@ function askQuestion() {
 
 for(let i= 0 ; i<questions.length;i++){
 candidateAnswers[i] = input.question(questions[i]);
-  if(candidateAnswers[i]==correctAnswers[i]){
+  if(candidateAnswers[i].toLowerCase==correctAnswers[i].toLowerCase){
     score++;
   }
 }
