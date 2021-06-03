@@ -34,7 +34,7 @@ score++;
 function gradeQuiz(candidateAnswers) {
 
   // TODO 1.2c: Let the candidate know if they have answered the question correctly or incorrectly // 
-let grade = (score/(questions.length)*100;
+let grade = (score/(questions.length)*100);
 let status = 'FAILED';
 if(grade >= 80){
   status = 'PASSED';
