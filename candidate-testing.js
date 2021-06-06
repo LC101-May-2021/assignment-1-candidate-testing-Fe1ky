@@ -36,6 +36,7 @@ for(let i=0;i<questions.length;i++){
   if(candidateAnswers[i].toLowerCase() === correctAnswers[i].toLowerCase()){
   score++;
   }
+
 }
   
 let grade = (score/(questions.length)*100);
@@ -51,6 +52,7 @@ for(let i = 0; i< questions.length;i++){
 }
 console.log(`>>> Overall Grade: ${grade}% (${score} of ${questions.length} responses correct)<<< \n >>> Status: ${status} <<<`);
 return grade
+score = 0 
 }
 
 function runProgram() {
